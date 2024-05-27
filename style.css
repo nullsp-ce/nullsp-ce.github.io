@@ -13,11 +13,11 @@ h1 {
     font-weight: bold;
     color: white;
 }
-navbar {
+.navbar {
     overflow: hidden;
     height: 4rem;
 }
-navbar title {
+.navbar .title {
     float: left;
     display: block;
     color: #dadada;
@@ -27,10 +27,10 @@ navbar title {
     padding: 1rem 1.5rem 1rem 0;
     text-decoration: none;
 }
-navbar title:hover {
+.navbar .title:hover {
     color: #4fc0ff;
 }
-navbar a {
+.navbar a {
     float: left;
     display: block;
     color: #dadada;
@@ -40,10 +40,10 @@ navbar a {
     padding: 1.625rem 1rem;
     text-decoration: none;
 }
-navbar a:hover {
+.navbar a:hover {
     color: #4fc0ff;
 }
-container {
+.container {
     margin: 0 auto 8rem;
     padding: 0 10px;
 }
