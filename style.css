@@ -33,7 +33,10 @@ h1 {
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    padding-right: 2rem;
+    margin-right: 1rem;
+}
+.navbar a:last-child {
+    margin-right: 0;
 }
 .navbar a:hover {
     color: #4fc0ff;
