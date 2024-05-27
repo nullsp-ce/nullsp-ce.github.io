@@ -16,28 +16,27 @@ h1 {
 .navbar {
     overflow: hidden;
     height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .navbar .title {
-    float: left;
-    display: block;
     color: #dadada;
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    padding: 1rem 1.5rem 1rem 0;
+    padding: 1rem;
     text-decoration: none;
 }
 .navbar .title:hover {
     color: #4fc0ff;
 }
 .navbar a {
-    float: left;
-    display: block;
     color: #dadada;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    padding: 1.625rem 1rem;
+    padding: 1rem;
     text-decoration: none;
 }
 .navbar a:hover {
