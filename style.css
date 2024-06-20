@@ -55,3 +55,35 @@ h1 {
         width: 40%;
     }
 }
+
+.timer-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+.timer {
+    text-align: center;
+}
+.display {
+    margin-bottom: 20px;
+}
+.display span {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+}
+.buttons button:hover {
+    background-color: #0056b3;
+}
