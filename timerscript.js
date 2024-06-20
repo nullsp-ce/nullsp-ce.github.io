@@ -1,5 +1,3 @@
-// script.js
-
 let currentTime = 0;
 let totalTime = 0;
 let interval;
