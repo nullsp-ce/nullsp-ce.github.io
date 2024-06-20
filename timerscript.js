@@ -37,7 +37,7 @@ function startBreakTimer() {
         if (breakTime <= 0) {
             clearInterval(breakInterval);
             isOnBreak = false;
-            document.title = "Flowmodoro Timer"; // Reset title when break ends
+            document.title = "Flow | nullsp_ce"; // Reset title when break ends
             return;
         }
         breakTime--;
