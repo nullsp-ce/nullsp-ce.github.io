@@ -2,9 +2,6 @@ p {
     line-height: 1.6;
 }
 a {
-    color: #c4c4c4;
-}
-a:hover {
     color: #d00000;
 }
 body {
@@ -29,11 +26,12 @@ h1 {
     padding: 1rem 0;
 }
 .navbar .title {
+    color: #ffffff;
     font-size: 2rem;
     font-weight: bold;
 }
 .navbar a {
-    color: white;
+    color: #d00000;
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
@@ -42,9 +40,6 @@ h1 {
 }
 .navbar a:last-child {
     margin-right: 0;
-}
-.navbar a:hover {
-    color: #d00000;
 }
 .container {
     margin: 0 auto 8rem;
