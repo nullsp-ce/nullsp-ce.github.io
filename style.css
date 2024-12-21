@@ -4,7 +4,7 @@ p {
 a {
     color: #c4c4c4;
 }
-.a:hover {
+a:hover {
     color: #d00000;
 }
 body {
@@ -30,9 +30,6 @@ h1 {
 }
 .navbar .title {
     font-size: 2rem;
-}
-.navbar .title:hover {
-    color: #4fc0ff;
 }
 .navbar a {
     color: white;
