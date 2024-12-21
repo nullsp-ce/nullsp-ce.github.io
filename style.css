@@ -15,10 +15,13 @@ body {
 h1 {
     font-weight: bold;
     color: #dadada;
-    margin-top: 1.0cm;
+    margin-top: 2.0cm;
 }
 h2 {
     margin-top: 1.0cm;
+}
+li:not(:last-child) { 
+   margin-bottom: 3px;  
 }
 .navbar {
     overflow: hidden;
