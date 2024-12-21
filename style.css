@@ -1,6 +1,12 @@
 p {
     line-height: 1.6;
 }
+a {
+    color: #c4c4c4;
+}
+.a:hover {
+    color: #d00000;
+}
 body {
     font-family: "Inter", "Roboto", "Montserrat", "Arial", sans-serif;
     font-size: 1rem;
@@ -12,6 +18,7 @@ body {
 h1 {
     font-weight: bold;
     color: #dadada;
+    margin-top: 1.0cm;
 }
 .navbar {
     overflow: hidden;
@@ -39,7 +46,7 @@ h1 {
     margin-right: 0;
 }
 .navbar a:hover {
-    color: #4fc0ff;
+    color: #d00000;
 }
 .container {
     margin: 0 auto 8rem;
@@ -54,35 +61,4 @@ h1 {
     .container {
         width: 40%;
     }
-}
-
-.timer-container {
-    padding: 20px;
-    border-radius: 10px;
-    font-size: 5rem;
-    justify-content: center;
-    align-items: center;
-}
-.timer {
-    text-align: center;
-}
-.display {
-    margin-bottom: 20px;
-}
-.display span {
-    display: block;
-    font-size: 2em;
-    margin-bottom: 10px;
-}
-.buttons button {
-    font-size: 1em;
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4fc0ff;
-    color: #171a1c;
-}
-.buttons button:hover {
-    background-color: #4290fb;
 }
